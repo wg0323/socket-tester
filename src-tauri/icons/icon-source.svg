@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121d2b"/>
+      <stop offset="0.55" stop-color="#0c131d"/>
+      <stop offset="1" stop-color="#080c12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.06" r="0.9">
+      <stop offset="0" stop-color="#4c9aff" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#4c9aff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#4c9aff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5aa8ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2c5d93" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f8bec"/>
+      <stop offset="1" stop-color="#6db6ff"/>
+    </linearGradient>
+    <linearGradient id="rx" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#31c98a"/>
+      <stop offset="1" stop-color="#63e6b0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="992" height="992" rx="228" fill="url(#bg)"/>
+  <rect x="16" y="16" width="992" height="992" rx="228" fill="url(#glow)"/>
+  <rect x="27" y="27" width="970" height="970" rx="218" fill="none" stroke="#263545" stroke-width="8" stroke-opacity="0.75"/>
+
+  <path
+    d="M512 169 L809 341 L809 683 L512 855 L215 683 L215 341 Z"
+    fill="#4c9aff"
+    fill-opacity="0.05"
+    stroke="url(#frame)"
+    stroke-width="34"
+    stroke-linejoin="round"
+  />
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M308 420 H 687 M 611 344 L 698 420 L 611 496" stroke="url(#tx)" stroke-width="65"/>
+    <path d="M716 604 H 337 M 413 528 L 326 604 L 413 680" stroke="url(#rx)" stroke-width="65"/>
+  </g>
+</svg>
